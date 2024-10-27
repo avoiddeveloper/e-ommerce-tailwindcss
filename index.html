@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce-tailwind</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body class="font-lato">
+
+     <header>
+        <!-- Welcome Part -->
+        <div class="hidden md:block bg-[#F5F5F5]">
+             <!-- Main -->
+             <div class="container mx-auto p-2 flex justify-between items-center py-3">
+                <!-- Left -->
+                <div>
+                    <p class="font-normal text-sm text-[#008ECC]">Welcome to worldwide iKRmart!</p>
+                </div>
+    
+                <!-- Right -->
+                <div class="flex gap-8 font-normal text-sm text-[#666666]">
+
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-location-dot text-[#008ECC]"></i>
+                        <p>Deliver to 423651</p>
+                    </div>
+
+                    <div class="w-[2px] p-[1px] bg-slate-200 rounded-lg"></div>
+                    
+                    <div class="flex items-center gap-1 ">
+                        <i class="fa-solid fa-truck text-[#008ECC]"></i>
+                        <p>Track Your Order</p>
+                    </div>
+
+                    <div class="w-[2px] p-[1px] bg-slate-200 rounded-lg"></div>
+                    
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-percent text-[#008ECC]"></i>
+                        <p>All Offer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar Part -->
+        <nav class="container mx-auto py-6 border-b-2">
+            <!-- Main -->
+            <div class="grid items-center grid-cols-2 md:grid-cols-3">
+                <!-- Start -->
+                <div>
+                    <i class="fa-solid fa-bars-staggered text-[#008ECC] text-2xl lg:text-3xl p-2 lg:p-3 bg-[#F3F9FB] rounded-lg"></i>
+                    <span class="font-extrabold text-2xl lg:text-3xl text-[#008ECC]">iKR Mark</span>
+                </div>
+
+                <!-- Center -->
+                <div class="hidden md:block">
+                    <div class="mx-auto bg-[#F3F9FB] flex items-center gap-4 px-4 py-4 rounded-lg">
+                        <i class="fa-solid fa-magnifying-glass text-lg text-[#008ECC]"></i>
+    
+                        <input type="search" placeholder="Search products..." class="w-full pr-48 bg-transparent focus:outline-none">
+    
+                        <i class="fa-solid fa-ellipsis text-lg text-[#008ECC]"></i>
+                    </div>
+                </div>
+
+                <!-- End -->
+                <div class="flex gap-3 items-center justify-end">
+
+                    <div class="flex items-center gap-2 font-bold text-base text-[#666666]">
+                        <i class="fa-solid fa-user text-[#008ECC]"></i>
+                        <p class="hidden md:block">Sign Up/Sign In</p>
+                    </div>
+
+                    <div class="w-[2px] p-[1px] bg-slate-200 rounded-lg"></div>
+
+                    <div class="flex items-center gap-2 font-bold text-base text-[#666666]">
+                        <i class="fa-solid fa-cart-shopping text-[#008ECC]"></i>
+                        <p class="hidden md:block">Cart</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Category Part -->
+        <section class="container mx-auto py-4 border-b-2">
+            <div class="grid gap-5 grid-cols-2 md:grid-cols-4 lg:grid-cols-8">
+                <div class="flex gap-1 justify-center items-center py-2 px-1 bg-[#F3F9FB] rounded-full font-semibold text-sm text-[#222222] hover:bg-[#008ECC] hover:text-white">
+                    <p>Groceries</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="flex gap-1 justify-center items-center py-2 px-1 bg-[#F3F9FB] rounded-full font-semibold text-sm text-[#222222] hover:bg-[#008ECC] hover:text-white">
+                    <p>Premium Fruits</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="flex gap-1 justify-center items-center py-2 px-1 bg-[#F3F9FB] rounded-full font-semibold text-sm text-[#222222] hover:bg-[#008ECC] hover:text-white">
+                    <p>Home And Kitchen</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="flex gap-1 justify-center items-center py-2 px-1 bg-[#F3F9FB] rounded-full font-semibold text-sm text-[#222222] hover:bg-[#008ECC] hover:text-white">
+                    <p>Fashion</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="flex gap-1 justify-center items-center py-2 px-1 bg-[#F3F9FB] rounded-full font-semibold text-sm text-[#222222] hover:bg-[#008ECC] hover:text-white">
+                    <p>Electronics</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="flex gap-1 justify-center items-center py-2 px-1 bg-[#F3F9FB] rounded-full font-semibold text-sm text-[#222222] hover:bg-[#008ECC] hover:text-white">
+                    <p>Beauty</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="flex gap-1 justify-center items-center py-2 px-1 bg-[#F3F9FB] rounded-full font-semibold text-sm text-[#222222] hover:bg-[#008ECC] hover:text-white">
+                    <p>Home Improvement</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+                <div class="flex gap-1 justify-center items-center py-2 px-1 bg-[#F3F9FB] rounded-full font-semibold text-sm text-[#222222] hover:bg-[#008ECC] hover:text-white">
+                    <p>Sports, Toys & Luggage</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Part -->
+         <section class="mt-5 container mx-auto bg-[#212844] md:rounded-xl relative ">
+
+            <!-- Main -->
+            <div class="grid items-center justify-center md:grid-cols-2 px-2  md:px-20 md:bg-[url(../images/image-bg.png)] bg-no-repeat bg-right">
+
+                <!-- Left -->
+                <div class="space-y-3 md:space-y-5 pt-6">
+                    <p class="font-semibold text-xl md:text-3xl text-white">Best Deal Online on smart watches</p>
+                    <h1 class="font-bold text-3xl md:text-6xl text-white">SMART WEARABLE.</h1>
+                    <p class="font-medium text-xl text-white">UP to 80% OFF</p>
+                </div>
+
+                <!-- Right -->
+                 <div class="py-6 flex justify-center md:justify-end">
+                    <img src="images/banner-1.png" alt="banner-1">
+                 </div>
+            </div>
+
+            <!-- Arrows -->
+
+            <!-- Left -->
+            <div class="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 flex justify-center items-center bg-[#F3F9FB] text-[#008ECC] rounded-full"><a href="#"><i class="fa-solid fa-chevron-left"></i></a></div>
+
+            <!-- Right -->
+            <div class="absolute right-2 top-1/2 -translate-y-1/2  w-10 h-10 flex justify-center items-center bg-[#F3F9FB] text-[#008ECC] rounded-full"><a href="#"><i class="fa-solid fa-chevron-right"></i></a></div>
+            
+
+         </section>
+     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          fontFamily: {
+            lato: ['Lato', 'sans-serif']
+          }
+        }
+      }
+    }
+</script>
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/8fd2185bf3.js" crossorigin="anonymous"></script>
+</body>
+</html>
